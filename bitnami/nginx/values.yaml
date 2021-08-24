@@ -233,7 +233,7 @@ readinessProbe:
   initialDelaySeconds: 5
   timeoutSeconds: 3
   periodSeconds: 5
-  failureThreshold: 3
+  failureThreshold: 4
   successThreshold: 1
 ## @param customLivenessProbe Override default liveness probe
 ##
